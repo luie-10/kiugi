@@ -9,6 +9,7 @@ public class Sword : system
     public int[] sellingCost = new int[] { };
     public bool[] upgradepro = new bool[] { };  
     public Sprite[] upgradesword = new Sprite[] { };
+    
     // Start is called before the first frame update
     void Start()
     {

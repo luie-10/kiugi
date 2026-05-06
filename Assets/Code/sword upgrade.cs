@@ -17,6 +17,9 @@ public class swordsupdate : Sword
         sowrdprice.text = "강화 비용 : " + Upgrade;
         price = sellingCost[swordlevel];
         sellsowrdprice.text = "판매 비용 : " + price;
+        sword.sprite = upgradesword[swordlevel];
+        
+        swordName.text = swordname[swordlevel];
     }
     // 검 이름을 쓰는 텍스트필드
     public TextMeshProUGUI swordName;
@@ -119,6 +122,7 @@ public class swordsupdate : Sword
         
         
     }
+   
     public void buyimmunity()
     {
         if (money >= 500)

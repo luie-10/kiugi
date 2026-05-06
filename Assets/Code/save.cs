@@ -13,5 +13,6 @@ public class system : MonoBehaviour
     public bool succes = true; //성공과 실패
     public int result = 0; // 결과
     public bool useImmunity; //방지권 사용
+    public int stone;
     
 }

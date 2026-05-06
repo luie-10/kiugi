@@ -13,4 +13,8 @@ public class sceanload : MonoBehaviour
     {
         SceneManager.LoadScene("Hard mode");
     }
+    public void money()
+    {
+        SceneManager.LoadScene("µ·¹ú±â");
+    }
 }
